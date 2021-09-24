@@ -1,0 +1,202 @@
+Text length dependence test
+Length | Success | Key size | Key
+___________________________________________
+  1000 |    true |        2 |           FR|
+  1000 |   false |        2 |           FR|
+  1000 |    true |        2 |           FR|
+  1000 |    true |        2 |           FR|
+  1000 |    true |        2 |           FR|
+  1000 |    true |        2 |           FR|
+  1000 |   false |        2 |           FR|
+  1000 |    true |        2 |           FR|
+  1000 |    true |        2 |           FR|
+  1000 |   false |        2 |           FR|
+___________________________________________
+Text length: 1000
+Key length: 2
+Success: 7
+Total: 10
+
+Length | Success | Key size | Key
+___________________________________________
+  5000 |    true |        2 |           FR|
+  5000 |    true |        2 |           FR|
+  5000 |    true |        2 |           FR|
+  5000 |    true |        2 |           FR|
+  5000 |    true |        2 |           FR|
+  5000 |    true |        2 |           FR|
+  5000 |    true |        2 |           FR|
+  5000 |    true |        2 |           FR|
+  5000 |    true |        2 |           FR|
+  5000 |    true |        2 |           FR|
+___________________________________________
+Text length: 5000
+Key length: 2
+Success: 10
+Total: 10
+
+Length | Success | Key size | Key
+___________________________________________
+ 10000 |    true |        2 |           FR|
+ 10000 |    true |        2 |           FR|
+ 10000 |    true |        2 |           FR|
+ 10000 |    true |        2 |           FR|
+ 10000 |    true |        2 |           FR|
+ 10000 |    true |        2 |           FR|
+ 10000 |    true |        2 |           FR|
+ 10000 |    true |        2 |           FR|
+ 10000 |    true |        2 |           FR|
+ 10000 |    true |        2 |           FR|
+___________________________________________
+Text length: 10000
+Key length: 2
+Success: 10
+Total: 10
+
+
+
+Key length dependence test
+Length | Success | Key size | Key
+___________________________________________
+  1000 |    true |        2 |           FR|
+  1000 |   false |        2 |           FR|
+  1000 |    true |        2 |           FR|
+  1000 |    true |        2 |           FR|
+  1000 |    true |        2 |           FR|
+  1000 |    true |        2 |           FR|
+  1000 |   false |        2 |           FR|
+  1000 |    true |        2 |           FR|
+  1000 |    true |        2 |           FR|
+  1000 |   false |        2 |           FR|
+___________________________________________
+Text length: 1000
+Key length: 2
+Success: 7
+Total: 10
+
+Length | Success | Key size | Key
+___________________________________________
+  1000 |    true |        3 |          DLC|
+  1000 |    true |        3 |          DLC|
+  1000 |    true |        3 |          DLC|
+  1000 |    true |        3 |          DLC|
+  1000 |    true |        3 |          DLC|
+  1000 |   false |        3 |          DLC|
+  1000 |   false |        3 |          DLC|
+  1000 |    true |        3 |          DLC|
+  1000 |   false |        3 |          DLC|
+  1000 |   false |        3 |          DLC|
+___________________________________________
+Text length: 1000
+Key length: 3
+Success: 6
+Total: 10
+
+Length | Success | Key size | Key
+___________________________________________
+  1000 |    true |        4 |         JCBF|
+  1000 |   false |        4 |         JCBF|
+  1000 |    true |        4 |         JCBF|
+  1000 |   false |        4 |         JCBF|
+  1000 |   false |        4 |         JCBF|
+  1000 |   false |        4 |         JCBF|
+  1000 |   false |        4 |         JCBF|
+  1000 |   false |        4 |         JCBF|
+  1000 |   false |        4 |         JCBF|
+  1000 |   false |        4 |         JCBF|
+___________________________________________
+Text length: 1000
+Key length: 4
+Success: 2
+Total: 10
+
+Length | Success | Key size | Key
+___________________________________________
+  1000 |   false |        5 |        XNAHD|
+  1000 |   false |        5 |        XNAHD|
+  1000 |   false |        5 |        XNAHD|
+  1000 |    true |        5 |        XNAHD|
+  1000 |   false |        5 |        XNAHD|
+  1000 |   false |        5 |        XNAHD|
+  1000 |   false |        5 |        XNAHD|
+  1000 |   false |        5 |        XNAHD|
+  1000 |   false |        5 |        XNAHD|
+  1000 |   false |        5 |        XNAHD|
+___________________________________________
+Text length: 1000
+Key length: 5
+Success: 1
+Total: 10
+
+Length | Success | Key size | Key
+___________________________________________
+  1000 |    true |        6 |       HJKERL|
+  1000 |   false |        6 |       HJKERL|
+  1000 |   false |        6 |       HJKERL|
+  1000 |   false |        6 |       HJKERL|
+  1000 |   false |        6 |       HJKERL|
+  1000 |   false |        6 |       HJKERL|
+  1000 |   false |        6 |       HJKERL|
+  1000 |   false |        6 |       HJKERL|
+  1000 |   false |        6 |       HJKERL|
+  1000 |   false |        6 |       HJKERL|
+___________________________________________
+Text length: 1000
+Key length: 6
+Success: 1
+Total: 10
+
+Length | Success | Key size | Key
+___________________________________________
+  1000 |   false |        7 |      VMEWVYR|
+  1000 |   false |        7 |      VMEWVYR|
+  1000 |   false |        7 |      VMEWVYR|
+  1000 |    true |        7 |      VMEWVYR|
+  1000 |   false |        7 |      VMEWVYR|
+  1000 |   false |        7 |      VMEWVYR|
+  1000 |   false |        7 |      VMEWVYR|
+  1000 |    true |        7 |      VMEWVYR|
+  1000 |   false |        7 |      VMEWVYR|
+  1000 |   false |        7 |      VMEWVYR|
+___________________________________________
+Text length: 1000
+Key length: 7
+Success: 2
+Total: 10
+
+Length | Success | Key size | Key
+___________________________________________
+  1000 |   false |        9 |    JFLDSAJGD|
+  1000 |   false |        9 |    JFLDSAJGD|
+  1000 |   false |        9 |    JFLDSAJGD|
+  1000 |   false |        9 |    JFLDSAJGD|
+  1000 |   false |        9 |    JFLDSAJGD|
+  1000 |   false |        9 |    JFLDSAJGD|
+  1000 |   false |        9 |    JFLDSAJGD|
+  1000 |   false |        9 |    JFLDSAJGD|
+  1000 |   false |        9 |    JFLDSAJGD|
+  1000 |   false |        9 |    JFLDSAJGD|
+___________________________________________
+Text length: 1000
+Key length: 9
+Success: 0
+Total: 10
+
+Length | Success | Key size | Key
+___________________________________________
+  1000 |   false |       12 | ASHFDKDSAHFS|
+  1000 |   false |       12 | ASHFDKDSAHFS|
+  1000 |   false |       12 | ASHFDKDSAHFS|
+  1000 |   false |       12 | ASHFDKDSAHFS|
+  1000 |   false |       12 | ASHFDKDSAHFS|
+  1000 |   false |       12 | ASHFDKDSAHFS|
+  1000 |   false |       12 | ASHFDKDSAHFS|
+  1000 |   false |       12 | ASHFDKDSAHFS|
+  1000 |   false |       12 | ASHFDKDSAHFS|
+  1000 |   false |       12 | ASHFDKDSAHFS|
+___________________________________________
+Text length: 1000
+Key length: 12
+Success: 0
+Total: 10
+
